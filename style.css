@@ -1,0 +1,228 @@
+body{
+  font-family: Montserrat, sans-serif;
+}
+.center-text{
+  text-align: center;
+  align-items: center;
+}
+h2{
+  margin: 30px auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  color: #303030;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}  
+
+.top-section{
+  background-color: #f4511e;
+}
+.navbar{
+  background-color: #f4511e;
+  height: auto;
+  padding: 2px 2px 2px 4px;
+  /* height: 30px; */
+  border-color: #f4511e !important;
+}
+.navbar .container-fluid{
+  padding: 0 0 0 20px;
+}
+.nav-link:active{
+  background-color: black;
+}
+.nav-link:focus{
+  background-color: black;
+}
+.nav-link:hover{
+  background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+}
+.navbar-brand{
+  font-size: 20px;
+  font-weight: 200;
+  color: white !important;
+}
+.bg-red{
+  color: white;
+  background-color: #f4511e;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  text-transform: uppercase;
+}
+.header-section{
+  margin: 50px auto 0;
+  height: 300px;
+  background-color: #f4511e;
+  text-align: center;
+  padding: 50px;
+}
+
+.header-section h1{
+  font-size: 3rem;
+}
+.header-section{
+  margin: 0px;
+}
+
+.email-input{
+  width: 50%;
+  height: 32px;
+}
+.submit-btn{
+  height: 32px;
+  margin-top: -0.3rem;
+  background-color: rgba(5, 5, 5, 0.564);
+  color: white  ;
+}
+.submit-btn:hover{
+  height: 32px;
+  margin-top: -0.3rem;
+  background-color: rgba(5, 5, 5, 0.754);
+  color: white  ;
+}
+.container-fluid{
+  height: auto;
+  padding: 60px 50px;
+}
+
+/* about */
+.about h2{
+  margin: 30px auto;
+  text-align: left;
+}
+
+.about p{
+  margin: 20px 0;
+}
+
+#about .btn{
+  border: 0.5px solid black;
+}
+
+.graph-img{
+  width: 100%;
+}
+
+/* Values */
+.earth-img{
+  width: 200px;
+  height: 200px;
+  margin: 50px auto 50px 20px;
+}
+.values{
+  background-color: rgb(246, 246, 246);
+}
+/* .values h2{
+  margin: 20px auto;
+  text-transform: uppercase;
+} */
+
+/* Services */
+.services h2{
+  margin: 20px auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services .col-sm-4{
+  padding: 0 15px;
+}
+.bi{
+  color: #f4511e;  
+  margin-bottom: 10px;
+}
+.services p{
+  text-align: center;
+}
+#services .cards{
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+#services h4{
+  text-align: center;
+}
+#services .row{
+  margin: 40px auto;
+}
+
+
+.slideani{
+  transition: ease-in-out;
+}
+
+/* Portfolio */
+
+.portfolio{
+  background-color: rgb(246, 246, 246);
+}
+#portfolio h4{
+  text-align: center;
+}
+#portfolio .card{
+  align-items: center;
+  text-align: center;
+  margin-right: 2.5rem;
+  border: solid 1px lightgrey;
+}
+#portfolio .card h4{
+  font-weight: 600;
+}
+#portfolio .card-img-top{
+  width: 25vw;
+  height: 35vh;
+  background-color: grey;
+  object-fit: contain;
+  
+}
+.card-img{
+  width: 100%;
+  height: 100%;
+}
+
+.card-btn{
+  margin-top: 100px;
+}
+
+.card-body{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* 
+.car-row{
+  min-height: 500px;
+} */
+.car-btn-parent{
+  position: relative;
+}
+.pricing-card:hover{
+  box-shadow: 0 0 8px 4px grey !important;
+}
+
+/* Contact */
+.contact{
+  background-color: rgb(246, 246, 246);
+}
+
+
+/* Bottom Section */
+
+.bottom-img{
+  width: 92vw;
+  height: 80vh;
+}
